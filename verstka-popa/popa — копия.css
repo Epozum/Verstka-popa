@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Circular;
+    src: url("CircularStd-Bold.otf");
+         font-weight: normal;
+}
+body{
+    background: #E5E5E5;
+}
+
+.zalupka{
+    display: flex;
+}
+#main_h{
+position: absolute;
+width: 539px;
+height: 72px;
+left: 450px;
+top: 56px;
+
+font-family: Circular;
+line-height: 35px;
+font-size: 28px;
+color: #423B3B;
+border: 1px solid black;
+}
+
+.quote_1{
+    position: absolute;
+    width: 539px;
+    height: 16px;
+    left: 450px;
+    top: 144px;
+    border: 1px solid black;
+}
+
+.quote{
+    /* Small text */
+
+    font-family: Circular;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    /* Primary color */
+
+    color: #A08F8F;
+}
+
+.content{
+    position: absolute;
+    width: 542px;
+    height: 261px;
+    left: 448px;
+    top: 192px;
+
+    /* Normal text */
+
+    font-family: Circular;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* Textual color */
+
+    color: #423B3B;
+    border: 1px solid black;
+}
+#pic{
+    position: absolute;
+    width: 544px;
+    height: 352px;
+    left: 448px;
+    top: 480px;
+
+    background: #ACB2BB;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.quote_2{
+
+    position: absolute;
+    width: 538px;
+    height: 16px;
+    left: 451px;
+    top: 848px;
+    border: 1px solid black;
+}
